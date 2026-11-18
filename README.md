@@ -1,4 +1,4 @@
-# Sagar Ghimire
+# Sagar G
 
 **Full-Stack Developer · Backend Engineering & Web Security**  
 Kathmandu, Nepal
