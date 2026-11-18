@@ -1,41 +1,32 @@
 # Sagar Ghimire
 
-**Full-Stack Developer focused on backend systems and web application security**  
+**Full-Stack Developer · Backend Engineering & Web Security**  
 Kathmandu, Nepal
 
 [Portfolio](https://sghimrie.com.np) · [LinkedIn](https://www.linkedin.com/in/sagar-ghimire-191a28345/)
 
-I build web applications with TypeScript, React, and Node.js. My work spans API design, database modeling, authentication, and Linux deployment. I also have training in PHP backend development and practice web security testing and network traffic analysis in lab environments.
+I build web apps and spend a lot of time on what happens behind each request. What should the API reject early? Which reads can Redis serve? Which jobs belong in a queue? Those are the kinds of decisions I’ve worked through while building **JanaSagar** and **MCommunity**.
 
-## JanaSagar
+## What I’ve Worked On
 
-JanaSagar is a community platform for technical discussions, professional profiles, and career opportunities. I’m building it with **Next.js, Express, PostgreSQL, and Prisma**.
-
-| Area | What I’m building and designing |
+| Area | Hands-on work |
 | --- | --- |
-| API protection | Rate limiting and server-side request validation to control traffic and reject invalid input before it reaches application logic. |
-| Authentication and access control | Cookie-based authentication and role-based permissions for user and administrative actions. |
-| Application security | Parameterized database queries to mitigate SQL injection, safe rendering of user-generated content to reduce XSS risk, and CSRF protection for state-changing requests. |
-| Caching | Redis caching for frequently requested data to reduce repeated reads from PostgreSQL. |
-| Background processing | RabbitMQ queues for work that can run outside the HTTP request cycle. |
-| Feed architecture | Evaluating fan-out on read, which assembles feeds when users open them, and fan-out on write, which updates feeds when new posts are published. |
-| Deployment | Nginx as a reverse proxy on an Ubuntu VPS, with PM2 for process management and access to application logs. |
-
-## Other Projects
-
-- **GadgetLoop** — Built a marketplace with buyer, seller, and admin roles, product listings, carts, reviews, and order tracking. Added cookie-based authentication, email verification, and login alerts.
-- **Wix Payment Icons** — Built a Wix app that lets merchants choose, reorder, style, and preview payment icons before displaying them on their storefronts.
+| **API design and traffic control** | Built REST APIs, validated requests on the server, and applied rate limits to control traffic on sensitive endpoints. |
+| **Caching and background jobs** | Used Redis to reduce repeated database reads and RabbitMQ to move background work out of the HTTP request cycle. |
+| **Feed architecture** | Worked through fan-out on read and fan-out on write, weighing the cost of assembling feeds when users open them against updating feeds when a post is published. |
+| **Authentication and access control** | Worked with cookie-based authentication and role-based permissions for user and admin actions. |
+| **Web application security** | Applied parameterized queries for SQL injection prevention, safe rendering of user-generated content to reduce XSS risk, and CSRF protections for state-changing requests. |
+| **Linux deployment** | Configured Nginx as a reverse proxy on Ubuntu and used PM2 to manage Node.js processes and inspect application logs. |
 
 ## Technical Skills
 
-| Area | Skills and tools |
+| Area | Technologies and tools |
 | --- | --- |
-| Frontend | React, Next.js, TypeScript, JavaScript |
-| Backend | Node.js, Express, NestJS, REST APIs, WebSockets, PHP backend fundamentals |
-| Databases and infrastructure | PostgreSQL, Prisma, MongoDB, MySQL, Redis, RabbitMQ |
-| Deployment | Linux, Nginx, Docker, PM2, Git, Vercel |
-| Web security | OWASP Top 10 fundamentals, authentication and authorization, secure session handling, input validation, and vulnerability assessment in lab environments |
-| Security tools | Burp Suite for inspecting HTTP traffic, Wireshark for packet analysis, Nmap for network discovery, and Kali Linux and Metasploit for security lab practice |
+| **Frontend** | TypeScript, JavaScript, React, Next.js |
+| **Backend** | Node.js, Express, NestJS, REST APIs, WebSockets, PHP backend fundamentals |
+| **Databases and messaging** | PostgreSQL, Prisma, MongoDB, MySQL, Redis, RabbitMQ |
+| **Deployment** | Linux, Nginx, PM2, Docker, Git |
+| **Security tools** | Burp Suite for inspecting HTTP traffic, Wireshark for packet analysis, Nmap for network discovery, and Kali Linux and Metasploit for security lab practice |
 
 ## Training
 
